@@ -50,7 +50,7 @@ Todo.findById(id).then((todo)=>{
 }); 
 
 app.listen(port,()=>{
-    console.log('Server is up on port port',port);
+    console.log('Server is up on port ',port);
 });
 
 module.exports = {app};
